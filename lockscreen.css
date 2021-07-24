@@ -1,0 +1,342 @@
+body {
+  font: normal 30px Verdana, Arial, sans-serif;
+  background: #ffffff;
+  background: #ffffff;
+  margin: 0;
+  padding: 0
+  color #000000;
+}
+
+body {
+   background: radial-gradient(50% 50% at 50% 50%, #00FFF0 0.03%, #000AFB 100%);
+   text-align: center;  
+   width: 500px;
+     height: 500px;
+     background-position: 100% -10%;
+     background-repeat: repeat;
+     background-size: cover;
+     margin: 0;
+}
+
+/* Title Bar */
+.navbar {
+  overflow: hidden;
+  background: rgba(4, 3, 39, 0.4);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+  background-blend-mode: soft-light, normal;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #ffffff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 12px;
+}
+
+.main {
+  margin-top: 31px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+style > h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+style>
+
+
+body {
+    margin: 0 0 55px 0;
+}
+
+/* Bottom Navigation Bar */
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 95px rgb(0, 140, 255);
+    background-color: #00CCCC;
+    display: flex;
+    overflow-x: auto;
+    backdrop-filter: blur(40px);
+
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #008585;
+}
+
+.nav__link--active {
+    color: #000000;
+    background-color: #00CCCC;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+.DefaultButton {
+  box-shadow: 0px 10px 14px -7px #000000e1;
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+  background-color: #E7EBF0;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+  background-blend-mode: soft-light, normal;
+}
+.DefaultButton:hover {
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+  background-color: #E7EBF0;
+  box-shadow: inset -15px -15px 30px #FAFBFF, inset 15px 15px 30px #A6ABBD;
+  border-radius: 5px;  
+  background-blend-mode: soft-light, normal;
+}
+.DefaultButton:active {
+  position: relative;
+  top: 3px;
+}
+
+.lockscreenunlock {
+  	transition: all 1s;
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), rgba(231, 235, 240, 0.58);
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: inset -2.5px -2.5px 50px #FAFBFF, inset 2.5px 2.5px 5px #A6ABBD;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+  background-blend-mode: soft-light, normal;
+  	transition: all 0.9s;
+}
+.lockscreenunlock:hover {
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+  background-color: #0073ff;
+  border-radius: 5px;  
+  background-blend-mode: soft-light, normal;
+  transition: all 1s;
+    box-shadow: 0px 0px 10px 1000px #ffffff9c, 5px 5px 10px #a6abbd8e;
+  background-blend-mode: soft-light, normal;
+  	transition: all 0.3s;
+}
+.lockscreenunlock:active {
+  position: relative;
+  top: 3px;
+}
+
+
+.EffectButton {
+background: linear-gradient(180deg, #FFFFFF 0%, #D9DFFF 100%);
+border: 0.5px solid rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 20px 40px rgba(23, 0, 102, 0.2);
+backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support. Should work on the PinePhone though*/
+border-radius: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #c0c0c0;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff9a;
+  opacity: 0.9px;
+
+}
+.EffectButton:hover {
+  background: linear-gradient(to bottom, #D9DFFF 5%, #FFFFFF 100%);
+  background-color: #2600ff;
+  box-shadow: 0px 30px 14px -7px #ffffff;
+}
+.EffectButton:active {
+  position: relative;
+  top: 3px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.DownloadButton {
+  box-shadow: -2.5px -2.5px 5px #FAFBFF, 2.5px 2.5px 5px #A6ABBD;
+  background-color: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #15ff00;
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #15fa009a;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 30px;
+  text-decoration: none;
+  background-blend-mode: soft-light, normal;
+}
+.DownloadButton:hover {
+  background: #15fa009a;
+  background-color: #00ff2233;
+  box-shadow: 0px 30px 14px -7px #ffffff;
+}
+.DownloadButton:active {
+  position: relative;
+  top: 3px;
+}
+
+.AppButton {
+  background: #d1d0d0;
+  background-color: #d1d0d0;
+  border-radius: 0px;
+  display:list-item;
+  cursor:pointer;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-align: right;
+  box-shadow: -2.5px -2.5px 5px #FAFBFF, 2.5px 2.5px 5px #A6ABBD;
+}
+.AppButton:hover {
+  background: #696969;
+  background-color: #1100ff;
+  box-shadow: 0px 1px 14px -7px #888787;
+}
+.app__icon {
+    font-size: 18px;
+}
+
+.NavigationButton {
+  box-shadow: -15px -15px 30px #fafbff6e, 15px 15px 30px #A6ABBD;
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight:normal;
+  padding: 11px 30px;
+  text-decoration: none;
+  background-blend-mode: soft-light, normal;
+  
+}
+.NavigationButton:hover {
+  background: linear-gradient(317.7deg, rgb(0, 0, 0) 0%, rgba(131, 131, 131, 0.582) 105.18%), #E7EBF0;
+  box-shadow: inset -15px -15px 30px #FAFBFF, inset 15px 15px 30px #A6ABBD;
+  background-blend-mode: soft-light, normal;
+}
+.NavigationButton:active {
+  position: relative;
+  top: 3px;
+}
+
+/* Container holding images and texts */
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(226, 209, 209);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 9px;
+  left: 15px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.loadinginside {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.loadinginside {
+  z-index: 1;
+}

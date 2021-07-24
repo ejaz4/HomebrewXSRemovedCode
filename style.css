@@ -1,0 +1,185 @@
+body {
+  font: normal 30px Verdana, Arial, sans-serif;
+  margin:0;
+  padding: 0;
+  -ms-scroll-rails: none;
+  -ms-scroll-rails: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: autohiding-scrollbar;
+   background: radial-gradient(50% 50% at 50% 50%, #00FFF0 0.03%, #000AFB 100%); 
+  /* background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat; */
+  text-align: center;  
+  width: 500px;
+  height: 500px;
+  background-position: 100% -10%;
+  background-size: cover; 
+}
+
+.gradient-background {
+  background: linear-gradient(210deg, #2e00ff, #ff002f, #ffd300, #4aff00, #ff00ef, #00a7ff, #114b69, #91a04d, #1d54bc, #6b61d2, #86006b, #d48620, #00e0ff, #00ffb9, #0086ff, #00ff05, #0020ff, #ffbd00, #009cff, #0094a9);
+  background-size: 4000% 4000%;
+  -webkit-animation: gradient-background 31s ease infinite;
+  -moz-animation: gradient-background 31s ease infinite;
+  -o-animation: gradient-background 31s ease infinite;
+  animation: gradient-background 31s ease infinite;
+}
+@-webkit-keyframes gradient-background {
+  0%{background-position:0% 24%}
+  50%{background-position:100% 77%}
+  100%{background-position:0% 24%}
+}
+@-moz-keyframes gradient-background {
+  0%{background-position:0% 24%}
+  50%{background-position:100% 77%}
+  100%{background-position:0% 24%}
+}
+@-o-keyframes gradient-background {
+  0%{background-position:0% 24%}
+  50%{background-position:100% 77%}
+  100%{background-position:0% 24%}
+}
+@keyframes gradient-background {
+  0%{background-position:0% 24%}
+  50%{background-position:100% 77%}
+  100%{background-position:0% 24%}
+}
+
+/* System Title Bar */
+.navbar {
+  z-index: 1;
+  overflow: hidden;
+  background: rgba(4, 3, 39, 0.4);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  position: fixed;
+  top: 105; 
+  width: 100%; 
+  background-blend-mode: soft-light, normal;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #ffffff !important;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 12px;
+}
+
+
+/* Home screen app grid */
+.main {
+  margin-top: 10px;
+}
+
+
+.grid {
+  width: 2500px;
+  padding: 0px;
+}
+
+.grid::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  box-sizing:border-box;
+  text-align: center;
+  padding-top: 110px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+  background: linear-gradient(111.36deg, #FFFFFF 3.27%, #B1B1B1 100%);
+  border-radius: 50%;
+  margin: 1px;
+  margin-top: -35px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease-out;
+}
+
+.grid-item-buffer {
+  opacity: 0;
+}
+
+.grid-item:nth-child(1),
+.grid-item:nth-child(2),
+.grid-item:nth-child(3),
+.grid-item:nth-child(4),
+.grid-item:nth-child(5),
+.grid-item:nth-child(6) {
+   margin-top: 0px;
+}
+
+.grid-item:nth-child(13n+8) {
+    margin-left: 125px;
+  clear:left;
+}
+
+.grid-item:nth-child(13n+14) {
+    clear:left;
+}
+
+
+.grid-item:hover {
+background: linear-gradient(111.36deg, #FFFFFF 3.27%, rgb(48, 44, 255) 83.4%);
+box-shadow: 0px 0px 90px 75px rgba(255, 255, 255, 0.726);
+transition: all 0.6s;
+border: 20px solid rgb(255, 255, 255);
+  
+}
+
+/* Homescreen Dock */
+.nav {
+  z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden;
+    background: rgba(4, 3, 39, 0.4);
+    box-shadow: inset 0px 0px 0px 0.5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    background-blend-mode: soft-light, normal;
+
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.6s ease-in-out;
+    z-index: -1;
+}
+
+.nav__link:hover {
+  box-shadow: 0px 0px 90px 75px rgba(255, 255, 255, 0.726);
+  transition: all 0.6s;
+}
+
+.nav__link--active {
+    color: #000000;
+    background-color: #00CCCC;
+}
+
+.nav__icon {
+    font-size: 200px !important;
+}
